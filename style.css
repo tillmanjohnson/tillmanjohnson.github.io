@@ -11,7 +11,7 @@ img {
   height: 100%;
 }
 
-.head{
+head{
   font-size: 50px;
   text-align: center;
   border: solid 1px;
@@ -20,7 +20,7 @@ img {
   border-radius: 3px;
 }
 
-.toggle {
+toggle {
   text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -28,14 +28,14 @@ img {
 
 
 
-.box {
+box {
   display: flex;
   flex-wrap: wrap;
   border: solid black;
   height: 100%;
 }
 
-.picdiv {
+picdiv {
   height: 325px;
   width: 95%;
   padding: 5px;
@@ -43,7 +43,7 @@ img {
   margin-right: auto;
 }
 
-.inspo{
+inspo{
   border: solid 5px red;
   background-color: grey;
   width: 150px;
@@ -56,11 +56,11 @@ img {
   margin-right: auto;
   }
   
- .showit{
+ showit{
   display: block;
 }
 
-.hideit{
+hideit{
   display: none;
 }
  
