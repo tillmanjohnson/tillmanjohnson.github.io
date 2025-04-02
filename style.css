@@ -1,109 +1,66 @@
-html {
+html{
   height: 100%;
 }
 
-body {
+body{
   height: 100%;
+}
+
+img {
   width: 100%;
-  margin: 10px;
+  height: 100%;
 }
 
-.showit{
+.head{
+  font-size: 50px;
+  text-align: center;
+  border: solid 1px;
+  background-color: red;
+  box-shadow: 3px 3px;
+  border-radius: 3px;
+}
+
+.toggle {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid black;
+  height: 100%;
+}
+
+.picdiv {
+  height: 325px;
+  width: 95%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inspo{
+  border: solid 5px red;
+  background-color: grey;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: 5px 5px;
+  font-size: 40px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+ .showit{
   display: block;
 }
 
 .hideit{
   display: none;
 }
-
-.red{
-  border: solid blue;
  
-}
-.parent {
-  display: grid;
-  grid-template-columns: 100px 100px;
-  grid-template-rows: 100px 100px;
-  grid-gap: 10px;
-  margin-top: 125px;
-}
-
-.blank {
-  background-color: blue;
-}
-
-.blank:hover {
-  background-color: yellow;
-  border: solid 1px;
-}
-
-.blue{
-  border: solid red;
-}
-
-.parent2 {
-  display: grid;
-  grid-template-columns: 20px 20px 20px;
-  grid-template-rows: 20px 20px;
-  grid-gap: 10px;
-  margin-top: 100px;
-  margin-left: 25%;
-}
-
-.blank2 {
-  background-color: Red;
-}
-
-.blank2:hover {
-  background-color: green;
-  border: solid 3px;
-}
-
-.yellow{
-  border: solid yellow;
-}
-
-.parent3 {
-  display: grid;
-  grid-template-columns: 50px 50px 50px;
-  grid-template-rows: 50px 50px 50px;
-  grid-gap: 10px;
-  margin-top: 100px;
-  margin-left: 25%;
-}
-
-.blank3 {
-  background-color: purple;
-}
-
-.blank3:hover {
-  background-color: white;
-  border: solid 5px;
-}
-
-.green{
-  border: solid orange;
-}
-
-.parent4 {
-  display: grid;
-  grid-template-columns: 75px 75px 75px;
-  grid-template-rows: 75px 75px 75px;
-  grid-gap: 10px;
-  margin-top: 100px;
-  margin-left: 25%;
-}
-
-.blank4 {
-  background-color: pink;
-}
-
-.blank4:hover {
-  background-color: black;
-  border: solid 1px blue;
-}
-
-.box{
-  height: 400px;
-  width: 800px;
-}
