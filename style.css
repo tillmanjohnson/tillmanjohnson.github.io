@@ -1,70 +1,132 @@
-html{
+html {
   height: 100%;
 }
 
-body{
+body {
   height: 100%;
-}
-
-img {
   width: 100%;
-  height: 100%;
-}
-
-.head{
-  font-size: 50px;
-  text-align: center;
-  border: solid 1px;
-  background-color: red;
-  box-shadow: 3px 3px;
-  border-radius: 3px;
-}
-
-.toggle {
-  text-align: center;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-
-
-.box {
-  display: flex;
-  flex-wrap: wrap;
-  border: solid black;
-  height: 100%;
-}
-
-.picdiv {
-  height: 325px;
-  width: 95%;
-  padding: 5px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.inspo{
-  border: solid 5px red;
-  background-color: grey;
-  width: 150px;
-  height: 150px;
-  border-radius: 5px;
-  box-shadow: 5px 5px;
-  font-size: 40px;
-  color: white;
-  margin-top: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  }
+  margin: 0;
   
- .showit{
-  display: block;
 }
 
-.hideit{
+.corner{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.corner .material-symbols-outlined{
+ font-size: 50px; 
+}
+
+
+.header{
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px;
+  height: 20px;
+  width: 250px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 3px 3px;
+  border-radius: 5px;
+  
+}
+
+.titlea{
+  display: inline;
+}
+
+.titleb{
   display: none;
 }
- 
+
+.bottom{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px;
+  
+}
+
+.boxholder{
+  margin: auto;
+  margin: auto;
+  border: solid blue;
+}
+
+.low-page{
+ flex: 1;
+}
+
+.box1{
+  height: 200px;
+  width: 200px;
+  background-color: teal;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  transition: 1s;
+  border-radius: 50%
+}
+
+.box2{
+  height: 200px;
+  width: 200px;
+  background-color: teal;
+  transition: 1s;
+  margin-left: 20px;
+}
+
 .page{
-  background-image: linear-gradient(to bottom, white, grey, black)
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to top, white, skyblue)
+}
+
+.box1:hover {
+   border-radius: 0%;
+   background-color: purple;
+}
+
+.box2:hover {
+  border-radius: 50%;
+  background-color: purple;
+}
+
+.corner .material-symbols-outlined:hover{
+ font-size: 55px; 
+ transition: 1s;
+}
+
+
+
+@media only screen and (max-width: 700px)
+{
+  
+ .titlea{
+   display: none;
+ } 
+ 
+ .titleb{
+   display: inline;
+ }
+  
+  .corner{
+    display: none;
+  }
+  
+  .header{
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px;
+  height: 20px;
+  width: 200px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 3px 3px;
+  border-radius: 5px;
+  
+}
 }
