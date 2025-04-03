@@ -1,0 +1,70 @@
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.head{
+  font-size: 50px;
+  text-align: center;
+  border: solid 1px;
+  background-color: red;
+  box-shadow: 3px 3px;
+  border-radius: 3px;
+}
+
+.toggle {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid black;
+  height: 100%;
+}
+
+.picdiv {
+  height: 325px;
+  width: 95%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inspo{
+  border: solid 5px red;
+  background-color: grey;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: 5px 5px;
+  font-size: 40px;
+  color: white;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+ .showit{
+  display: block;
+}
+
+.hideit{
+  display: none;
+}
+ 
+.page{
+  background-image: linear-gradient(to bottom, white, grey, black)
+}
