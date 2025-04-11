@@ -39,10 +39,11 @@ html, body {
   border: solid 5px red;
   background-color: grey;
   border-radius: 5px;
-  height: 250px;
+  height: 200px;
   width: 250px;
   box-shadow: 5px 5px;
   font-size: 60px;
+  padding: 20px;
  }
 
 
