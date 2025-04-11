@@ -7,7 +7,7 @@ html, body {
 
 .page {
   background-image: linear-gradient(to bottom, white, grey, black);
-  height: 100%; 
+  min-height: 100vh; 
 }
 
 .flex2{
@@ -43,7 +43,7 @@ html, body {
   width: 250px;
   box-shadow: 5px 5px;
   font-size: 60px;
-  padding: 20px;
+  padding: 20px
  }
 
 
