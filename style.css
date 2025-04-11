@@ -30,24 +30,20 @@ html, body {
   width: 100%;
 }
 
-.flex3{
-  height: 50%;
-  width: 50%;
-  margin-top: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  border: solid green;
-}
 
 .inspo {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  color: white;
   border: solid 5px red;
   background-color: grey;
   border-radius: 5px;
+  height: 250px;
+  width: 250px;
   box-shadow: 5px 5px;
   font-size: 60px;
-  color: white;
-  flex: 1;
-}
+ }
 
 
 .head {
