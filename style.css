@@ -70,3 +70,238 @@ html, body {
 .hideit {
   display: none;
 }
+
+.inspoflex{
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border: solid 1px black;
+}
+
+.inspo-a {
+  margin: 5px;
+  flex: 1;
+  border: solid red;
+}
+
+.inspo-b {
+  margin: 5px;
+  flex: 1;
+  border: solid green;
+}
+
+.inspo-bflex{
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  
+}
+
+.inspo-b1{
+  flex: 1;
+  border: solid orange;
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.inspo-b2{
+  flex: 1;
+  border: solid blue;
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.inspo-b3{
+  flex: 1;
+  border: solid yellow;
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.inspo-aflex{
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  
+}
+
+.inspo-a1{
+  flex: 1;
+  border: solid green;
+  height: 150px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.inspo-a2{
+  flex: 1;
+  border: solid maroon;
+  height: 150px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.inspo-a3{
+  flex: 1;
+  border: solid aqua;
+  height: 150px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+
+
+.head2 {
+  color: Black;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  border: solid 1px white;
+  width: 200px;
+  text-align: center;
+  font-style: Italic;
+}
+
+.abtmeflex{
+  margin-top: 10px;
+  border: black 1px solid;
+  height: 80%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.abtme-a{
+  flex: 1;
+}
+
+.abtmeflex2{
+  margin-top: 10px;
+  border: black 1px solid;
+  height: 100%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  .abtme2-a{
+    flex: 1;
+    border: solid 1px white;
+    height: 50px;
+  }
+  
+  .trainflex{
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  border: solid 1px black;
+}
+
+.train-a {
+  margin: 5px;
+  flex: 1;
+  border: solid yellow;
+  height: 500px;
+}
+
+.train-aflex{
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.aflex1{
+  flex: 1;
+  border: solid red;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  
+}
+
+.aflex2{
+  flex: 3;
+  border: solid violet;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.aflex3{
+  flex: 1;
+  border: solid lime;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.train-b {
+  margin: 5px;
+  flex: 1;
+  border: solid orange;
+  height: 500px;
+}
+
+.train-bflex{
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.bflex1{
+  flex: 1;
+  border: solid green;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  Text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.bflex2{
+  flex: 3;
+  border: solid maroon;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.bflex3{
+  flex: 1;
+  border: solid aqua;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
