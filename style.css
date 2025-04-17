@@ -224,14 +224,14 @@ html, body {
   margin: 5px;
   flex: 1;
   border: solid yellow;
-  height: 500px;
+  height: 100%;
 }
 
 .train-aflex{
   border: solid 1px black;
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 100%;
 }
 
 .aflex1{
@@ -266,14 +266,14 @@ html, body {
   margin: 5px;
   flex: 1;
   border: solid orange;
-  height: 500px;
+  height: 100%;
 }
 
 .train-bflex{
   border: solid 1px black;
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 100%;
 }
 
 .bflex1{
