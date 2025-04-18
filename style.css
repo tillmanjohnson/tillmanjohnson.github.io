@@ -196,7 +196,6 @@ html, body {
 .abtme-a{
   flex: 1;
   border: blue 1px solid;
-  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -204,7 +203,6 @@ html, body {
 .abtme-b{
   flex: 1;
   border: green 1px solid;
-  width: 75%;
   margin-left: auto;
   margin-right: auto;
 }
