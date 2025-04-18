@@ -188,8 +188,8 @@ html, body {
 .abtmeflex{
   margin-top: 10px;
   border: black 1px solid;
-  height: 50%;
-  width: 50%;
+  height: 300px;
+  width: 300px;
   margin-left: auto;
   margin-right: auto;
 }
