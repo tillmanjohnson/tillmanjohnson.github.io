@@ -11,7 +11,7 @@ html, body {
 }
 
 .flex2{
-  margin: 20px;
+  margin: 5px;
   margin-left: auto;
   margin-right: auto;
   height: 90%;
@@ -188,32 +188,28 @@ html, body {
 .abtmeflex{
   margin-top: 10px;
   border: black 1px solid;
-  width: 400px;
-  height: 400px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 90vh;
   display: flex;
+  flex-direction: column;
 }
 
 .abtme-a{
   flex: 1;
-  height: 100%;
-}
-
-.abtmeflex2{
-  margin-top: 10px;
-  border: black 1px solid;
-  height: 100%;
+  border: blue 1px solid;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  }
-  
-  .abtme2-a{
-    flex: 1;
-    border: solid 1px white;
-    height: 50px;
-  }
+}
+
+.abtme-b{
+  flex: 1;
+  border: green 1px solid;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
   
   .trainflex{
   height: 95vh;
