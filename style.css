@@ -75,7 +75,7 @@ html, body {
   margin: 10px;
   margin-left: auto;
   margin-right: auto;
-  height: 85vh;
+  height: 95vh;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -118,7 +118,7 @@ html, body {
   flex: 1;
   border: solid blue;
   height: 150px;
-  width: 200px;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
@@ -214,7 +214,7 @@ html, body {
   }
   
   .trainflex{
-  height: 85vh;
+  height: 95vh;
   margin: 10px;
   margin-left: auto;
   margin-right: auto;
