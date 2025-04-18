@@ -188,7 +188,8 @@ html, body {
 .abtmeflex{
   margin-top: 10px;
   border: black 1px solid;
-  width: 50%;
+  width: 400px;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -196,8 +197,7 @@ html, body {
 
 .abtme-a{
   flex: 1;
-  height: 450px;
-  
+  height: 100%;
 }
 
 .abtmeflex2{
