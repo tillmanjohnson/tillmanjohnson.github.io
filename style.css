@@ -26,7 +26,7 @@ html, body {
 }
 
 .pic{
-  max-height: 100%;
+  height: 100%;
   width: 100%;
 }
 
@@ -188,28 +188,23 @@ html, body {
 .abtmeflex{
   margin-top: 10px;
   border: black 1px solid;
-  height: 90vh;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
-}
+  height: 100vh;
+  }
 
 .abtme-a{
   flex: 1;
   border: blue 1px solid;
-  width: 50%;
   margin-left: auto;
   margin-right: auto;
-  box-sizing: border-box;
 }
 
 .abtme-b{
   flex: 1;
   border: green 1px solid;
-  width: 75%;
   margin-left: auto;
   margin-right: auto;
-  box-sizing: border-box;
 }
 
 
