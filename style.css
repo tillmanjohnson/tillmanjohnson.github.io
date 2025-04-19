@@ -189,7 +189,7 @@ html, body {
   margin-top: 10px;
   border: black 1px solid;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 100vh;
   }
 
