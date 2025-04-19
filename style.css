@@ -185,20 +185,29 @@ html, body {
   font-style: Italic;
 }
 
-.abtme1{
-  border: green 3px solid;
-  height: 300px;
-  width: 300px;
+.abtmeflex{
+  border: black 1px solid;
+  display: flex;
+  height: 50%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
+  
+}
+
+.abtme1{
+  flex: 1;
+}
+
+.abtmeflex2{
+  border: blue 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 .abtme2{
-  border: aqua 3px solid;
-  width: 500px;
-  height: 150px;
-  margin-left: auto;
-  margin-right: auto;
+  flex: 1;
 }
 
   
