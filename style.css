@@ -28,6 +28,8 @@ html, body {
 .pic{
   height: 100%;
   width: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 
@@ -188,7 +190,7 @@ html, body {
 .abtmeflex{
   border: black 1px solid;
   display: flex;
-  height: 60vh;
+  height: 50vh;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -197,6 +199,7 @@ html, body {
 
 .abtme1{
   flex: 1;
+  height: 100%;
 }
 
 .abtmeflex2{
