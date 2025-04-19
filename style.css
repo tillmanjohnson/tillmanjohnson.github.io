@@ -306,3 +306,66 @@ html, body {
   margin-right: auto;
   margin-top: 10px;
 }
+
+.all{
+  height: 100%;
+}
+
+.rtdiv{
+  border: white 1px solid;
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px;
+}
+
+.rtflex{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 50vh;
+  border: solid 1px white;
+  box-shadow: 3px 3px 3px;
+}
+
+.rtflex-a{
+  flex: 1;
+  xborder: solid 3px green;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  height: 
+ 
+}
+
+.rtflex-b{
+  flex: 1;
+  xborder: solid 3px yellow;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.rtdiv2{
+  text-align: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid white 1px;
+  color: white;
+  background-color: black;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px;
+  
+}
