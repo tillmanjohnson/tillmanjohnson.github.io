@@ -6,7 +6,7 @@ html, body {
 
 
 .page {
-  background-image: linear-gradient(to bottom, white, grey, black);
+  background-image: linear-gradient(to bottom, white, grey, white);
   min-height: 100vh; 
 }
 
