@@ -189,7 +189,7 @@ html, body {
 .abtmeflex{
   border: black 1px solid;
   display: flex;
-  height: 50%;
+  height: 50vh;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -198,6 +198,7 @@ html, body {
 
 .abtme1{
   flex: 1;
+  height: 100%;
   overflow: hidden;
 }
 
