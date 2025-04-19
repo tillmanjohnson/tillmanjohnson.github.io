@@ -369,3 +369,79 @@ html, body {
   box-shadow: 3px 3px 3px;
   
 }
+
+.contflex{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 95vh;
+  }
+
+.cflex-a{
+  flex: 1;
+  border: solid 3px green;
+  text-align: center;
+ 
+}
+
+.contflex3{
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+}
+
+.cf3a{
+  flex: 2;
+  border: orange 1px solid;
+}
+
+.cf3b{
+  flex: 1;
+  border: blue 1px solid;
+  font-size: 40px;
+  text-decoration: underline;
+  font-style: oblique;
+}
+
+.cf3c{
+  flex: 1;
+  border: red 1px solid;
+}
+
+.cf3d{
+  flex: 1;
+  border: purple 1px solid;
+}
+
+.cf3e{
+  flex: 2;
+  border: maroon 1px solid;
+}
+
+.cflex-b{
+  flex: 1;
+  border: solid 3px yellow;
+  text-align: center;
+}
+
+.contflex2{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cf2a{
+  flex:1;
+  border: aqua 1px solid;
+}
+
+.cf2b{
+  flex: 2;
+  border: brown 1px solid;
+ }
+ 
+ .cf2c{
+   flex: 1;
+   border: black 1px solid;
+ }
+
