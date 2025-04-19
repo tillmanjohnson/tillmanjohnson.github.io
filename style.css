@@ -198,6 +198,7 @@ html, body {
 
 .abtme1{
   flex: 1;
+  overflow: hidden;
 }
 
 .abtmeflex2{
@@ -439,6 +440,7 @@ html, body {
 .cf2b{
   flex: 2;
   border: brown 1px solid;
+  overflow: hidden;
  }
  
  .cf2c{
