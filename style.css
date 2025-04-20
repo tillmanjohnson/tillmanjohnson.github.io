@@ -146,7 +146,6 @@ html, body {
 
 .inspo-a1{
   flex: 1;
-  border: solid green;
   height: 150px;
   width: 400px;
   margin-left: auto;
@@ -154,11 +153,13 @@ html, body {
   margin-top: 10px;
   padding: 10px;
   text-align: center;
+  background-color: black;
+  opacity: 0.3;
+  border-radius: 10px;
 }
 
 .inspo-a2{
   flex: 1;
-  border: solid maroon;
   height: 150px;
   width: 400px;
   margin-left: auto;
@@ -166,11 +167,13 @@ html, body {
   margin-top: 10px;
   padding: 10px;
   text-align: center;
+  background-color: black;
+  opacity: 0.3;
+  border-radius: 10px;
 }
 
 .inspo-a3{
   flex: 1;
-  border: solid aqua;
   height: 150px;
   width: 400px;
   margin-left: auto;
@@ -178,6 +181,9 @@ html, body {
   margin-top: 10px;
   padding: 10px;
   text-align: center;
+  background-color: black;
+  opacity: 0.3;
+  border-radius: 10px;
 }
 
 
@@ -215,7 +221,7 @@ html, body {
   text-align: center;
   font-size: 30px;
   background-color: red;
-  background-color: transparent;
+  opacity: 0.6;
   border-radius: 5px;
 }
 
@@ -301,8 +307,8 @@ html, body {
   text-decoration: underline;
   padding: 20px;
   background-color: white;
-  background-color: transparent;
-  border-radius: 3px;
+  opacity: 0.8;
+  border-radius: 5px;
 }
 
 .bflex2{
