@@ -148,7 +148,7 @@ html, body {
   background-color: black;
   color: white;
   border-radius: 10px;
-  text-size: 35px;
+  text-size: 15px;
 }
 
 .inspo-a2{
@@ -163,7 +163,7 @@ html, body {
   background-color: black;
   color: white;
   border-radius: 10px;
-  text-size: 35px;
+  text-size: 15px;
 }
 
 .inspo-a3{
@@ -178,7 +178,7 @@ html, body {
   background-color: black;
   color: white;
   border-radius: 10px;
-  text-size: 35px;
+  text-size: 15px;
 }
 
 
@@ -293,7 +293,7 @@ html, body {
   Text-align: center;
   font-size: 50px;
   text-decoration: underline;
-  padding: 30px;
+  padding: 10px;
 }
 
 .bflex2{
@@ -306,6 +306,7 @@ html, body {
   font-size: 20px;
   padding: 20px;
   background-color: red;
+  border-radius: 10px;
 }
 
 .bflex3{
@@ -342,8 +343,6 @@ html, body {
   margin-right: auto;
   width: 75%;
   height: 50vh;
-  box-shadow: 3px 3px 3px;
-  border-radius: 5px;
 }
 
 .rtflex-a{
@@ -352,7 +351,9 @@ html, body {
   background-color: black;
   color: white;
   padding: 40px;
-  font-size: 60px; 
+  font-size: 60px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px;
  
 }
 
@@ -363,6 +364,8 @@ html, body {
   color: white;
   padding: 40px;
   font-size: 60px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px;
 }
 
 .rtdiv2{
