@@ -253,7 +253,7 @@ html, body {
   margin-top: 10px;
   background-color: black;
   border: solid 1px red;
-  
+  border-radius: 10px;
 }
 
 .aflex2{
@@ -270,6 +270,7 @@ html, body {
   margin-right: auto;
   background-color: black;
   border: solid 1px red;
+  border-radius: 10px;
 }
 
 .train-b {
