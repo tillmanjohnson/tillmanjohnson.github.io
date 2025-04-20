@@ -445,6 +445,8 @@ html, body {
 
 .cf2a{
   flex:1;
+  background-color: black;
+  border-radius: 5px;
 }
 
 .cf2b{
@@ -453,5 +455,7 @@ html, body {
  
  .cf2c{
    flex: 1;
+   background-color: black;
+   border-radius: 5px;
  }
 
