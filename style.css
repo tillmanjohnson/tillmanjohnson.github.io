@@ -154,7 +154,7 @@ html, body {
   padding: 10px;
   text-align: center;
   background-color: black;
-  opacity: 0.3;
+  color: white;
   border-radius: 10px;
 }
 
@@ -168,7 +168,7 @@ html, body {
   padding: 10px;
   text-align: center;
   background-color: black;
-  opacity: 0.3;
+  color: white;
   border-radius: 10px;
 }
 
@@ -182,7 +182,7 @@ html, body {
   padding: 10px;
   text-align: center;
   background-color: black;
-  opacity: 0.3;
+  color: white;
   border-radius: 10px;
 }
 
@@ -221,7 +221,6 @@ html, body {
   text-align: center;
   font-size: 30px;
   background-color: red;
-  opacity: 0.6;
   border-radius: 5px;
 }
 
@@ -307,13 +306,12 @@ html, body {
   text-decoration: underline;
   padding: 20px;
   background-color: white;
-  opacity: 0.8;
   border-radius: 5px;
 }
 
 .bflex2{
   flex: 3;
-  border: solid maroon;
+  border: solid 5px black;
   width: 95%;
   margin-left: auto;
   margin-right: auto;
@@ -325,7 +323,6 @@ html, body {
 
 .bflex3{
   flex: 1;
-  border: solid aqua;
   width: 95%;
   margin-left: auto;
   margin-right: auto;
@@ -345,7 +342,7 @@ html, body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   text-decoration: underline;
   padding: 20px;
   border-radius: 3px;
@@ -358,7 +355,6 @@ html, body {
   margin-right: auto;
   width: 75%;
   height: 50vh;
-  border: solid 1px white;
   box-shadow: 3px 3px 3px;
   border-radius: 3px;
 }
@@ -375,7 +371,6 @@ html, body {
 
 .rtflex-b{
   flex: 1;
-  xborder: solid 3px yellow;
   text-align: center;
   background-color: black;
   color: white;
@@ -432,11 +427,13 @@ html, body {
 .cf3c{
   flex: 1;
   border: red 1px solid;
+  font-size: 20px;
 }
 
 .cf3d{
   flex: 1;
   border: purple 1px solid;
+  font-size: 20px;
 }
 
 .cf3e{
@@ -458,16 +455,13 @@ html, body {
 
 .cf2a{
   flex:1;
-  border: aqua 1px solid;
 }
 
 .cf2b{
   flex: 2;
-  border: brown 1px solid;
  }
  
  .cf2c{
    flex: 1;
-   border: black 1px solid;
  }
 
