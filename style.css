@@ -192,6 +192,7 @@ html, body {
   width: 200px;
   text-align: center;
   font-style: Italic;
+  font-weight: bold;
 }
 
 .abtmeflex{
@@ -295,6 +296,7 @@ html, body {
   font-size: 50px;
   text-decoration: underline;
   padding: 10px;
+  font-weight: bold;
 }
 
 .bflex2{
