@@ -357,8 +357,8 @@ html, body {
   font-size: 60px;
   border-radius: 5px;
   box-shadow: 3px 3px 3px;
- 
-}
+  text-shadow: 2px 2px 5px red;
+ }
 
 .rtflex-b{
   flex: 1;
@@ -405,9 +405,10 @@ html, body {
 
 .cf3a{
   flex: 2;
-  font-size: 25px;
+  font-size: 30px;
   font-style: Italic;
-  padding: 20px;
+  padding: 25px;
+  text-shadow: 2px 2px;
 }
 
 .cf3b{
