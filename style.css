@@ -403,6 +403,9 @@ html, body {
 
 .cf3a{
   flex: 2;
+  font-size: 20px;
+  font-style: Italic;
+  padding: 10px;
 }
 
 .cf3b{
@@ -424,8 +427,6 @@ html, body {
 
 .cf3e{
   flex: 2;
-  font-size: 20px;
-  font-style: Italic;
 }
 
 .cflex-b{
