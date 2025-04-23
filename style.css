@@ -58,11 +58,24 @@ html, body {
   border-radius: 3px;
 }
 
-
-.toggle {
-  text-align: center;
+.toggle{
+  display: flex;
+  justify-content: center;
   margin-top: 5px;
-  margin-bottom: 5px;
+}
+
+.toggle button{
+  margin: 5px;
+  font-size: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  color: black;
+}
+
+.toggle button:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 2px;
 }
 
 .showit {
