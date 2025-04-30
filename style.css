@@ -476,3 +476,15 @@ html, body {
    border: solid 3px white;
  }
 
+.bball{
+  position: absolute;
+  top: 70px;
+  right: 5px;
+  color: black;
+}
+
+.bball .material-symbols-outlined:hover{
+ font-size: 40px; 
+ transition: 1s;
+
+
